@@ -2,12 +2,6 @@
     background-color: #FAA0A0;
     width: 750px;
     margin: 0 auto;
-    list-style: none;
-}
-
-.top-nav-bar li{
-    background-color: #FAA0A0;
-    float: left;
 }
 
 .top-nav-bar a{
