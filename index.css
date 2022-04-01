@@ -1,5 +1,7 @@
 .top-nav-bar{
-    background-color: #FAA0A0
+    margin: 0 auto;
+    background-color: #FAA0A0;
+    text-align: center;
 }
 
 .top-nav-bar a{
