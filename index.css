@@ -1,11 +1,11 @@
 .top-nav-bar{
-    float: left;
-    display: block;
-    padding: 8px;
+    padding: 0;
     background-color: #FAA0A0;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
     list-style: none;
+    border:1px solid #ccc;
+    border-width:1px 0;
 }
 
 .top-nav-bar li{
