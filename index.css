@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+.top-nav-bar li{
+display: inline;
+}
+
 .top-nav-bar a{
     float: left;
     padding: 8px;
