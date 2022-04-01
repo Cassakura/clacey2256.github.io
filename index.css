@@ -4,6 +4,7 @@
     padding: 1.1em;
     font-size: 1.1em;
     margin-bottom: 2em;
+    text-decoration: none;
 }
 
 .top-nav-bar ul{
@@ -14,16 +15,19 @@
     padding-inline-start: 40px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-decoration: none;
 }
 
 .top-nav-bar li{
     list-style: none;
     display: inline-block;
     text-align: center;
+    text-decoration: none;
 }
 
 .top-nav-bar a{
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 .top-nav-bar a:hover{
