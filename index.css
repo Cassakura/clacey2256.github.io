@@ -7,7 +7,7 @@ body{
 }
 
 .top-nav-bar a{
-    float: left;
+    float: center;
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
