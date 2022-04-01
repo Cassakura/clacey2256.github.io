@@ -3,12 +3,26 @@
     
 }
 
+.top-nav-bar ul{
+    list-style: none;
+    background-color: #FAA0A0;
+    padding: 0;
+    margin: 0;
+}
+
 .top-nav-bar li{
     display: inline-block;
 }
 
 .top-nav-bar a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
     float: left;
+    padding: 25px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .top-nav-bar a:hover{
