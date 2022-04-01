@@ -4,11 +4,11 @@
 }
 
 .top-nav-bar li{
-    
+    display: inline-block;
 }
 
 .top-nav-bar a{
-    
+    float: left;
 }
 
 .top-nav-bar a:hover{
