@@ -4,7 +4,6 @@
     padding: 1.1em;
     font-size: 1.1em;
     margin-bottom: 2em;
-    
 }
 
 .top-nav-bar ul{
@@ -13,11 +12,14 @@
     margin-block-start: 1em;
     margin-block-end: 1em;
     padding-inline-start: 40px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .top-nav-bar li{
     list-style: none;
     display: inline-block;
+    text-align: center;
 }
 
 .top-nav-bar a{
