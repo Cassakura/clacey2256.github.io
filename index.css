@@ -9,7 +9,7 @@
 }
 
 .top-nav-bar li{
-    display: inline;
+    display: inline-block;
 }
 
 .top-nav-bar a{
