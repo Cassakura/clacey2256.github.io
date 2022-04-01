@@ -17,11 +17,11 @@
 
 .top-nav-bar a{
     text-decoration: none;
-    width: 75px;
+    width: 100px;
     display: block;
     float: left;
     padding: 25px 20px;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
