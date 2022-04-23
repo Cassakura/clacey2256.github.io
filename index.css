@@ -1,5 +1,6 @@
 *{
     background-color: #FAA0A0;
+    text-decoration: none;
 }
 
 .top-nav-bar{
@@ -35,10 +36,6 @@
 }
 
 .top-nav-bar a:visited{
-    text-decoration: none;
-}
-
-.top-nav-bar active{
     text-decoration: none;
 }
 
