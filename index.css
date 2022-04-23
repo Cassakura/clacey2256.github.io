@@ -33,16 +33,16 @@
     display: block;
     width:100px;
     padding: 15px;
-    color: whitesmoke;
+    color: #E9EAE0;
 }
 
 .top-nav-bar a:visited{
     text-decoration: none;
-    color: whitesmoke;
+    color: #E9EAE0;
 }
 
 .top-nav-bar a:hover{
-    background-color: whitesmoke;
+    background-color: #E9EAE0;
     color: black;
     text-decoration: none;
 }
