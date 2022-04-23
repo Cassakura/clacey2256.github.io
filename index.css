@@ -4,7 +4,7 @@
 }
 
 .top-nav-bar{
-    background-color: #FAA0A0;
+    background-color: beige;
     text-align: center;
     padding: 1.1em;
     font-size: 1.1em;
@@ -33,12 +33,12 @@
     display: block;
     width:100px;
     padding: 15px;
-    color: lightblue;
+    color: whitesmoke;
 }
 
 .top-nav-bar a:visited{
     text-decoration: none;
-    color: lightblue;
+    color: whitesmoke;
 }
 
 .top-nav-bar a:hover{
