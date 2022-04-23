@@ -34,6 +34,10 @@
     padding: 15px;
 }
 
+.top-nav-bar a:visited{
+    text-decoration: none;
+}
+
 .top-nav-bar active{
     text-decoration: none;
 }
