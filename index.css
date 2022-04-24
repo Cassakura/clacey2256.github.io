@@ -47,4 +47,5 @@
     background-color: #E9EAE0;
     color: black;
     text-decoration: none;
+    -webkit-text-stroke-width: 0px;
 }
