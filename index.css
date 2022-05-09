@@ -36,8 +36,6 @@
     width:100px;
     padding: 15px;
     color: #E9EAE0;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 
 .top-nav-bar a:visited{
