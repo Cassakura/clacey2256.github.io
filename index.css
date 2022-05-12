@@ -49,3 +49,21 @@
     text-decoration: none;
     -webkit-text-stroke-width: 0px;
 }
+
+body {
+    background: linear-gradient(45deg, #BFB2F3, #96CAF7, #9CDCAA, #E5E1AB,  #F3C6A5, #F8A3A8);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
