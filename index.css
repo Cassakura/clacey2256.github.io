@@ -77,6 +77,10 @@ body {
     animation: gradient 15s ease infinite;
 }
 
+.ind{
+    margin-top: 30%;
+    margin-left: 60%;
+}
 
 @keyframes gradient {
     0% {
