@@ -67,7 +67,7 @@
 
 .top-nav-bar .active{
     background-color: #52494c;
-    box-shadow: inset 0px 1px #BFB2F3,inset 0px 1px #96CAF7,inset 0px 1px #9CDCAA,inset 0px 1px #FAA0A0;
+    box-shadow: inset 0px 4px #F8A3A8;
     border-radius: 10px;
 }
 
