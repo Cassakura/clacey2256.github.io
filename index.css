@@ -12,6 +12,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+    border-radius: 50%
 }
 
 .top-nav-bar ul{
