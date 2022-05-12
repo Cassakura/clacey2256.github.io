@@ -67,8 +67,9 @@
 
 .top-nav-bar .active{
     background-color: #52494c;
-    box-shadow: inset 0px 4px #FAA0A0;
+    box-shadow: inset 0px 4px linear-gradient(45deg, #BFB2F3, #96CAF7, #9CDCAA, #E5E1AB,  #F3C6A5, #F8A3A8);
     border-radius: 10px;
+    animation: gradient 15s ease infinite;
 }
 
 body {
