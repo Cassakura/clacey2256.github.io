@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="top-nav-bar">
+    <div id="header" class="top-nav-bar">
         <ul>
           <li><a class="active" href="/">Home</a></li>
           <li><a href="social">Social</a></li>
@@ -131,5 +131,17 @@
       <br>
       <br>a
     </div>
+
+    <script>
+      window.onscroll = scrollShowNav;
+      function scrollShowNav() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+         {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.2em";
+         } else {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
+         }
+      }
+      </script>
   </body>
 </html>
