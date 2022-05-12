@@ -67,9 +67,8 @@
 
 .top-nav-bar .active{
     background-color: #52494c;
-    box-shadow: inset 0px 4px linear-gradient(45deg, #BFB2F3, #96CAF7, #9CDCAA, #E5E1AB,  #F3C6A5, #F8A3A8);
+    box-shadow: inset 0px 1px #BFB2F3,inset 0px 1px #96CAF7,inset 0px 1px #9CDCAA,inset 0px 1px #FAA0A0;
     border-radius: 10px;
-    animation: gradient 15s ease infinite;
 }
 
 body {
@@ -77,6 +76,7 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
 
 @keyframes gradient {
     0% {
