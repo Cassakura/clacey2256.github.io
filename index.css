@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 *{
     text-decoration: none;
 }
@@ -16,6 +17,7 @@
     right: 0;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 
 .top-nav-bar ul{
@@ -34,7 +36,7 @@
 }
 
 .top-nav-bar a{
-    font-family: sans-serif;
+    font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     text-decoration: none;
     display: block;
