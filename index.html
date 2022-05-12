@@ -18,5 +18,21 @@
     <div class="body">
       
     </div>
+
+
+    <script>
+      window.onscroll = scrollShowNav;
+      function scrollShowNav() {
+         if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+         )
+         {
+            document.getElementsByTagName("top-nav-bar")[0].style.padding = "0.2em !important";
+         } else {
+            document.getElementsByTagName("top-nav-bar")[0].style.padding = "0.3em !important";
+         }
+      }
+    </script>
   </body>
 </html>
