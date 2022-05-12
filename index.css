@@ -77,14 +77,6 @@ body {
     animation: gradient 15s ease infinite;
 }
 
-.name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: auto;
-}
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
