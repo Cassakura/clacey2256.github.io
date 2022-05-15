@@ -80,8 +80,8 @@
 }
 
 .imagemain{
-    padding-top: 0%;
     padding-left: 5%;
+    max-width: 100%;
 }
 
 .homemain{
@@ -94,6 +94,7 @@
 .allmain{
     display: flex;
     align-items: center;
+    justify-content: center
 }
 
 @keyframes gradient {
