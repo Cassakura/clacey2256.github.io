@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-<head>
-  <link rel="stylesheet" href="index.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <header>
+    <div class="top-nav-bar">
+      <ul>
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="social">Social</a></li>
+        <li><a href="gaming">Gaming</a></li>
+        <li><a href="anime">Anime</a></li>
+        <li><a href="interests">Interests</a></li>
+      </ul>
+    </div>
+  </header>
 
-<header>
-  <div class="top-nav-bar">
-    <ul>
-      <li><a class="active" href="/">Home</a></li>
-      <li><a href="social">Social</a></li>
-      <li><a href="gaming">Gaming</a></li>
-      <li><a href="anime">Anime</a></li>
-      <li><a href="interests">Interests</a></li>
-    </ul>
-  </div>
-</header>
+  <body>
+    <div>
 
-<body>
-  <div>
-
-  </div>
+    </div>
   
-  <script>
-    window.onscroll = scrollShowNav;
-    function scrollShowNav() {
-       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
-       {
-          document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
-       } else {
-          document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
-       }
-    }
-    </script>
-</body>
+    <script>
+      window.onscroll = scrollShowNav;
+      function scrollShowNav() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+        {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
+        } else {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
+        }
+      }
+      </script>
+  </body>
 
 </html>
