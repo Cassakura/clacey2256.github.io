@@ -80,13 +80,14 @@
 }
 
 .imagemain{
+    padding-top: 5%;
     padding-left: 5%;
     max-width: 100%;
 }
 
 .homemain{
     padding-top: 20%;
-    padding-left: 5%;
+    padding-left: 45%;
     padding-right: 5%;
     background: none;
 }
