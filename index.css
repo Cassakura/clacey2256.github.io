@@ -80,7 +80,9 @@
 }
 
 .homemain{
-    position: absolute;
+    margin-left: 55%;
+    margin-top: 30%;
+    background: none;
 }
 
 @keyframes gradient {
