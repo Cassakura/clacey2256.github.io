@@ -86,16 +86,26 @@
 }
 
 .homemain{
-    padding-top: 20%;
     padding-left: 10%;
     padding-right: 5%;
     background: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.discordhome{
+    padding-top: 15%;
+    display:block;
+    align-items: center;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
 }
 
 .allmain{
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 @keyframes gradient {
