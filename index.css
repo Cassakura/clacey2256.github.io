@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Patrick Hand';
-    src: url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-}
-
 *{
-    font-family: 'Patrick Hand', cursive;
+    font-family: sans-serif;
     text-decoration: none;
 }
 
@@ -43,7 +38,7 @@
 }
 
 .top-nav-bar a{
-    font-family: 'Patrick Hand', cursive;
+    font-family: sans-serif;
     font-weight: bold;
     text-decoration: none;
     display: block;
@@ -86,6 +81,7 @@
 }
 
 .homemain{
+    padding-top: 5%;
     padding-left: 10%;
     padding-right: 5%;
     background: none;
@@ -94,12 +90,8 @@
 }
 
 .discordhome{
-    padding-top: 15%;
-    display:block;
-    align-items: center;
-    margin-left: auto;
-    text-align: center;
-    margin-right: auto;
+    max-width: 64em;
+    margin: 1em auto;
 }
 
 .allmain{
