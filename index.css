@@ -67,9 +67,9 @@
 }
 
 .bodyhome{
-    background: linear-gradient(45deg, #FFBADE, #FFC7D7, #FFD5CF, #FFE2C8, #FFEFC0);
+    background: linear-gradient(45deg, #FFC7D7, #EFCFD4, #F5DCE0);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 8s ease infinite;
     background-attachment:fixed;
     height:100%;
 }
@@ -89,15 +89,32 @@
     justify-content: center;
 }
 
-.discordhome{
-    max-width: 64em;
-    margin: 1em auto;
-}
-
 .allmain{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.homemain hr{
+    border-top: 1.5px solid black;
+}
+
+.socialcontainers{
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.githide, .linkedhide, .twitchhide, .starhide, .steamhide, .reddithide, .instahide{
+    display: none;
+    visibility: hidden;
+}
+
+#github:hover .githide{
+    display: block;
+    visibility: visible;
 }
 
 @keyframes gradient {
