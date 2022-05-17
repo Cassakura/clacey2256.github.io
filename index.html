@@ -5,6 +5,25 @@
     <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script>
+      let test = '-'
+      document.addEventListener('DOMContentLoaded', () => {
+        const hover = av => {
+          tags.innerHTML = av.target.title
+        }
+        const reset = () => {
+          tags.innerHTML = test
+       }
+      reset()
+  
+        const social = document.getElementsByClassName('socialcontainers')[0]
+        const icons = Array.from(social.querySelectorAll('a')).filter(item => item.title)
+        icons.forEach(icon => {
+          icon.addEventListener('mouseenter', hover)
+          icon.addEventListener('mouseleave', reset)
+        })
+      })
+    </script>
   </head>
 
   <header>
@@ -30,50 +49,30 @@
           I previously went by names such as Cassy, Cassie, Casnipes, or Casniper2. This website includes different things about me and all 
           sorts of interests that I have accumulated over the years. This project of mine is to work on my front-end development skills as I 
           primarily prefer back-end. I hope that you enjoy this project of mine! If you have any suggestions or comments, you can reach me at 
-          various locations listed in the <b><a href="social" style="color: #227568;text-decoration: underline;">Social</a></b> tab or the icons below!</h2><br><br>
-          <!-- FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX  -->
-      <div class="hides">
-        <div class="githide" id="github">
-          <h2 style="text-align: center;font-weight:normal">[Github]</h2>
-        </div>
-        <div class="linkedhide">
-          <h2 style="text-align: center;font-weight:normal">[LinkedIn]</h2>
-        </div>
-        <div class="twitchhide">
-          <h2 style="text-align: center;font-weight:normal">[Twitch]</h2>
-        </div>
-        <div class="starhide">
-          <h2 style="text-align: center;font-weight:normal">[You're Awesome]</h2>
-        </div>
-        <div class="steamhide">
-          <h2 style="text-align: center;font-weight:normal">[Steam]</h2>
-        </div>
-        <div class="reddithide">
-          <h2 style="text-align: center;font-weight:normal">[Reddit]</h2>
-        </div>
-        <div class="instahide">
-          <h2 style="text-align: center;font-weight:normal">[Instagram]</h2>
-        </div>
-      </div>
-      <!-- FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX FIX  -->
-        <br>
+          various locations listed in the <b><a href="social" style="color: #5E5CB2;text-decoration: underline;">Social</a></b> tab or the icons below!</h2><br><br>
+          <!-- #227568 -->
+        <div class="social">
+          <span id="tags" style="text-align:center;text-decoration:none;">
+            "-"
+          </span>
         <hr noshade size="1">
         <div class="socialcontainers">
-          <div><a href="https://github.com/clacey2256"><i class="fa fa-github fa-3x" style="color: #5E5CB2;" id="github"></i></a></div>
-          <div><a href="https://www.linkedin.com/in/cody-lacey-3a1488171/"><i class="fa fa-linkedin-square fa-3x" style="color: #5E5CB2;" id="linkedin"></i></a></div>
-          <div><a href="https://www.twitch.tv/casniper2"><i class="fa fa-twitch fa-3x" style="color: #5E5CB2;"id="twitch"></i></a></div>
-          <div><a href=""><i class="fa fa-star fa-3x fa-flip" style="color: #5E5CB2;" id="star"></i></a></div>
-          <div><a href="https://steamcommunity.com/id/Cassakura"><i class="fa fa-steam-square fa-3x" style="color: #5E5CB2;" id="steam"></i></a></div>
-          <div><a href="https://www.reddit.com/user/casniper2"><i class="fa fa-reddit-square fa-3x" style="color: #5E5CB2;" id="reddit"></i></a></div>
-          <div><a href="https://www.instagram.com/cassakura_/"><i class="fa fa-instagram fa-3x" style="color: #5E5CB2;" id="instagram"></i></a></div>
+          <a href="https://github.com/clacey2256" title="GitHub"><i class="fa fa-github fa-3x" style="color: #5E5CB2;"></i></a>
+          <a href="https://www.linkedin.com/in/cody-lacey-3a1488171/" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x" style="color: #5E5CB2;" id="linkedin"></i></a>
+          <a href="https://www.twitch.tv/casniper2" title="Twitch"><i class="fa fa-twitch fa-3x" style="color: #5E5CB2;"id="twitch"></i></a>
+          <a href="" title="Star"><i class="fa fa-star fa-3x fa-flip" style="color: #5E5CB2;" id="star"></i></a>
+          <a href="https://steamcommunity.com/id/Cassakura" title="Steam"><i class="fa fa-steam-square fa-3x" style="color: #5E5CB2;" id="steam"></i></a>
+          <a href="https://www.reddit.com/user/casniper2" title="Reddit"><i class="fa fa-reddit-square fa-3x" style="color: #5E5CB2;" id="reddit"></i></a>
+          <a href="https://www.instagram.com/cassakura_/" title="Instagram"><i class="fa fa-instagram fa-3x" style="color: #5E5CB2;" id="instagram"></i></a>
         </div>
+      </div>
       </div>
     </div>
 
     <script>
       window.onscroll = scrollShowNav;
       function scrollShowNav() {
-         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+         if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120)
          {
             document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
          } else {

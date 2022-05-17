@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+body{
+    text-align: center;
+    font-family:sans-serif;
+}
+
 .top-nav-bar{
     background-color: #706367;
     text-align: center;
@@ -107,15 +112,26 @@
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
-.githide, .linkedhide, .twitchhide, .starhide, .steamhide, .reddithide, .instahide{
-    display: none;
-    visibility: hidden;
+span{
+    font-family:sans-serif;
+    display: block;
+    font-size: 1.25em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-#github:hover .githide{
-    display: block;
-    visibility: visible;
+span:before{
+    content: "[ ";
+    color: black;
 }
+
+span:after{
+    content: " ]";
+    color: black;
+}
+
 
 @keyframes gradient {
     0% {
