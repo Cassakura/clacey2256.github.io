@@ -9,7 +9,7 @@ body{
 }
 
 .top-nav-bar{
-    background-color: #706367;
+    background-color: #5A6BC8;
     text-align: center;
     padding: 0.4em;
     transition: 0.4s;
@@ -66,8 +66,8 @@ body{
 }
 
 .top-nav-bar .active{
-    background-color: #52494c;
-    box-shadow: inset 0px 4px #FFD5CF;
+    background-color: #3d50b8;
+    box-shadow: inset 0px 4px #EFCFD4;
     border-radius: 10px;
 }
 
