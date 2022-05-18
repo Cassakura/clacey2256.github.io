@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
+  <header>
+    <div class="top-nav-bar">
+      <button onclick="history.back()"><h2>Go Back</button>
+    </div>
+    <script>
+      window.onscroll = scrollShowNav;
+      function scrollShowNav() {
+         if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120)
+         {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
+         } else {
+            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
+         }
+      }
+    </script>
+  </header>
+
+  <body>
+    <div class="homemain">
+        <h2 style="font-weight:normal;text-align:center;text-decoration:none;">I'd like to dedicate this page to all of my friends and family who have appeared throughout
+        my life. Some of them may have left me but all of them have taught me important life lessons. Some are
+        still around me but will end up being life lessons. Some are around me and I love the hell out of them.
+        And some are here to stay forever. And for that, I am eternally grateful no matter where they stand.
+        <br>
+        <br>
+        Thank you to my friends. Thank you to my online friends who I have known for a while.
+        You guys are awesome and great to talk to and very supportive. Thank you to my friends at V-Spec. 
+        While I don't talk in there too often anymore, you are all still very supportive and caring. (Except
+        you Steven smh). Thank you especially to the boys: Casey, Jacob, RJ, 
+        Bryan/Obama, Shane, Chris, Alex, and the list is constantly growing. You guys are basically my non-blood
+        brothers (Except Obama, he is my blood brother). For some of us, its been over 10 years and we are still
+        going strong. Thank you all for sticking with me and all the memories we have shared.
+        <br>
+        <br>
+        Thank you to my family. I wouldn't have been able to do anything without them. I feel I am extremely
+        luck to have them as my own. Thank you to my close extended family for teaching me life lessons and always
+        sharing their knowledge and laughs. Thank you to my siblings for sticking by my side and all the cheers
+        we shared. Thank you to my mother and father for taking care of me and the support they have given me 
+        throughout my life. Thank you to my grandmother for being a thoughtful, compassionate, amazing role model
+        for me to try to take after. 
+        </h2>
+    </div>
+  </body>
+</html>

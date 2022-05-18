@@ -8,6 +8,22 @@ body{
     font-family:sans-serif;
 }
 
+.button{
+    text-align: center;
+    font-family:sans-serif;
+    background-color: #3d50b8;
+    border-radius: 4px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #E9EAE0;
+    color: black;
+    text-decoration: none;
+    -webkit-text-stroke-width: 0px;
+    border-radius: 10px;
+}
+
 .top-nav-bar{
     background-color: #5A6BC8;
     text-align: center;
