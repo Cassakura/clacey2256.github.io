@@ -148,6 +148,25 @@ span:after{
     color: black;
 }
 
+.starbody{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 5%;
+    background-image: url('rabbit.png');
+    align-items: center;
+    justify-content: center;
+}
+
+.starmain{
+    background: rgba(61,80,184,.65);
+    border-radius: 10px;
+    border-spacing: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-style:solid;
+    border-color: rgba(61,80,184);
+}
+
 
 @keyframes gradient {
     0% {
